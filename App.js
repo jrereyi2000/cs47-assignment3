@@ -4,7 +4,7 @@ import {
 } from "react-native";
 import { useSpotifyAuth } from "./utils";
 import { Themes } from "./assets/Themes";
-import {TopTracks} from './components';
+import {AuthButton, TopTracks} from './components';
 
 export default function App() {
     // Pass in true to useSpotifyAuth to use the album ID (in env.js) instead of top tracks
